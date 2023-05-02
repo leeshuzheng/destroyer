@@ -1,24 +1,16 @@
-import { useAccount } from 'wagmi'
-
-import { Account, Connect, NetworkSwitcher } from '../components'
+import { useAccount } from "wagmi";
+import Account from "@components/Account";
+import Header from "@components/Header";
 
 function Page() {
-  const { isConnected } = useAccount()
+  const { address } = useAccount();
 
   return (
-    <>
-      <h1>wagmi + Next.js</h1>
-
-      <Connect />
-
-      {isConnected && (
-        <>
-          <Account />
-          <NetworkSwitcher />
-        </>
-      )}
-    </>
-  )
+    <div className="h-full md:max-w-6xl mx-auto px-4">
+      <Header />
+      <Account address={address} />
+    </div>
+  );
 }
 
-export default Page
+export default Page;

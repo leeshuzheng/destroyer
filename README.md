@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) + [wagmi](https://wagmi.sh) project bootstrapped with [`create-wagmi`](https://github.com/wagmi-dev/wagmi/tree/main/packages/create-wagmi)
 
+# destroyer (wip)
+
+Little web app to display NFTs from your wallet address
+
 # Getting Started
 
 Run `npm run dev` in your terminal, and then open [localhost:3000](http://localhost:3000) in your browser.
