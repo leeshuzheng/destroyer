@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org) + [wagmi](https://wagmi.sh) project bootstrapped with [`create-wagmi`](https://github.com/wagmi-dev/wagmi/tree/main/packages/create-wagmi)
+# destroyer
 
-# destroyer (wip)
+[Live demo (wip)](https://destroyer.leeshuzheng.io)
 
-Little web app to display NFTs from your wallet address
+Little web app to display NFTs from your wallet address, a project bootstrapped with [`create-wagmi`](https://github.com/wagmi-dev/wagmi/tree/main/packages/create-wagmi).
 
 # Getting Started
 
