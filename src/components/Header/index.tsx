@@ -22,7 +22,7 @@ export default function Header() {
 
   return (
     <header className="py-5 flex justify-between">
-      <h1 className="text-3xl font-semibold">
+      <h1 className="text-3xl font-semibold dark:text-white">
         <Link href="/">destroyer</Link>
       </h1>
       <aside className="relative">

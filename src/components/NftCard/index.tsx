@@ -15,7 +15,7 @@ const NftCard = ({ data }: NftCardProps) => {
         <div className="aspect-square w-full relative">
           <Image src={image as string} fill alt={data?.metadata?.name} />
         </div>
-        <div className="p-4 flex flex-col gap-1">
+        <div className="p-4 flex flex-col gap-1 dark:text-white">
           <h2 className="text-xl font-semibold">{data.metadata?.name}</h2>
           <span className="truncate text-sm">
             {data.metadata?.description.replace(/(<([^>]+)>)/gi, "")}

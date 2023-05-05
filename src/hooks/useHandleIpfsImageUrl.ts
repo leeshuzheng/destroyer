@@ -3,5 +3,5 @@ export const useHandleIpfsImageUrl = (url: string) => {
     return undefined;
   }
 
-  return url.replace("ipfs://", "https://ipfs.io/");
+  return url.replace("ipfs://", "https://ipfs.io/ipfs/");
 };
