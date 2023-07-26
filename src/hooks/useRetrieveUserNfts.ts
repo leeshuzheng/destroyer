@@ -5,7 +5,9 @@ type retrieveUserNftsProps = {
 };
 
 const Auth = Buffer.from(
-  "82fb339c24924bf790a853a93ad207fc" + ":" + "57f9ec55fb6942da89d30c61f7dbac97"
+  process.env.NEXT_PUBLIC_INFURA_API_KEY +
+    ":" +
+    process.env.NEXT_PUBLIC_INFURA_SECRET_KEY
 ).toString("base64");
 
 export const useRetrieveUserNfts = ({ address }: retrieveUserNftsProps) => {
